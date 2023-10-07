@@ -1,38 +1,114 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+body {
+  font-family:  "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+}
+.nav_bar{
+  background: #f0f2f5;
+}
+
+nav{
+  background-color: #f0f2f5;
+  color: black;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  padding: 20px 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+.nav_bar{
+  margin-left: 5%;
+  text-align: start;
+  width: 50%;
+}
+.right{
+  background: #f0f2f5;
+  color: black;
+}
+.right h1{
+  background: #f0f2f5;
+}
+.main{
+  display: flex;
+
+}
+.left{
+  margin-left: 10%;
+width: 75%;
+height: 89vh;
+display: flex;
+flex-direction: column;
+}
+.left h2{
+  margin-left: 80px;
+  margin-top: 164px;
+}
+.button1{
+  margin-top: 38px;
+  font-weight: bolder;
+  margin-left: 50px;
+  background: black;
+  color: #fff;
+  font-size: 17px;
+  height: 50px;
+  border-radius: 30px;
+  width: 43%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
+.right2{
+  width: 25%;
+  height: 89vh;
 }
+.left h2{
+font: bold 24px/29px "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.right2 img{
+  height:88vh;
+  width: 100%;
+}
+.devider{
+  
+  width:40%;
+}
+.centre{
+  margin-left: 70px;
+  width: 43%;
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+}
+.centre p{
+  font-size: 18px;
+  margin-left: 14px;
+}
+.devider2{
+  width:40%;
+  margin-left: 14px;   
+}
+.button2{
+  margin-top: 38px;
+  color: #0d0c22;
+  border-color: #e7e7e9;
+  margin-left: 50px;
+  color: black;
+  font-size: 17px;
+  height: 50px;
+  border-radius: 30px;
+  width: 43%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.button1:hover{
+  background-color: #565564;
 }
